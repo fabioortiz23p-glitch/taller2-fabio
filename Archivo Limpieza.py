@@ -16,3 +16,7 @@ def owner_label(x):
 owner_new = df["Owner"].map(owner_label)
 print("El número de dueños es: ")
 print(owner_new)
+
+print("Las primeras 5 filas del DataFrame son:", df.head())
+
+print("Las últimas 5 filas del DataFrame son:", df.tail())
