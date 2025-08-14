@@ -11,7 +11,8 @@ def owner_label(x):
   elif x=="3rd owner":
     return 3
   else:
-    return 4
+    return 5
   
 owner_new = df["Owner"].map(owner_label)
+print("El número de dueños es: ")
 print(owner_new)
