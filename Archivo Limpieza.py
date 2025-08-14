@@ -9,7 +9,7 @@ def owner_label(x):
   elif x=="2nd owner":
     return 2
   elif x=="3rd owner":
-    return 3
+    return 4
   else:
     return 5
   
